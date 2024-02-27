@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-image:url('/Fundo.jpg');
+    background-size: cover;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: hsla(0, 0%, 93%, 0.397);
+    backdrop-filter: blur(3px);
+    display: inline-block;
+    border-radius: .5rem;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #f7f7f7;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+
+
+}
+
+button {
+    margin-top: 10px;
+    border-radius: .4rem;
+    padding: .7rem 1.5rem;
+    background: #eee;
+    cursor: pointer;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
